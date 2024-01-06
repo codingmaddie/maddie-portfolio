@@ -6,6 +6,7 @@ import { Metadata } from "next";
 import Footer from '../components/footer';
 import Skills from "../components/skills";
 import Projects from "../components/projects";
+import { Children } from 'react';
 
 export const metadata: Metadata = {
   title: "Home - Madeline Tang",
@@ -14,11 +15,13 @@ export const metadata: Metadata = {
 const Home = () => {
   return (
       <div>
-      <RootLayout children={undefined} />
+      <RootLayout>
+      
         <HomeBackground />
         <Skills />
         <Projects />
         <Gallery />
+        </RootLayout>
       </div>
   );
 }

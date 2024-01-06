@@ -7,7 +7,7 @@ const Project2 = () => {
         <h1 className="text-4xl font-bold mb-4">Earthquake Detection Unit</h1>
         <p className="mb-4">
           When appropriate text files are imported, earthquake simulations are ran and detected by sensors. Measured values of the simulated earthquakes are detected 
-          at time of hit including the magnitude, initial location of the earthquake's epicenter, decay value, and spread rate. 
+          at time of hit including the magnitude, initial location of the earthquakes epicenter, decay value, and spread rate. 
         </p>
         <ul className="list-disc ml-6">
           <li>Text files are imported through user input</li>

@@ -7,7 +7,7 @@ const Project2 = () => {
         <h1 className="text-4xl font-bold mb-4">Who Wants To Be a Millionaire</h1>
         <p className="mb-4">
           As recreation of the popular tv show, this interactive single-player game programmed in Python has a full set of 15 questions with options. 
-          Throughout the game, players are able to use any of the three lifelines at any time. The program keeps score of the player's bank when questions are answered
+          Throughout the game, players are able to use any of the three lifelines at any time. The program keeps score of the bank of a player when questions are answered
           correctly and a final game screen is presented with the total amount of money won. 
         </p>
         <ul className="list-disc ml-6">

@@ -7,7 +7,7 @@ const ProjectCard1 = () => {
       <img className="object-cover w-full rounded-t-lg h-100 p-3 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="web.png" alt="" />
       <div className="flex flex-col justify-between p-4 leading-normal">
         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Web Developer Career Website</h5>
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">A website about the web developer career that details the sample job titles and working conditions. The website gives insights into the job's outlook, academic requirements, and qualifiable skills.</p>
+        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">A website about the web developer career that details the sample job titles and working conditions. The website gives insights into the jobs outlook, academic requirements, and qualifiable skills.</p>
         <div className="flex">
             <img className="h-8 w-8 mr-3" src="html.png" alt="html Logo" />
             <img className="h-8 w-8" src="css-3.png" alt="css Logo" />

@@ -18,7 +18,7 @@ const Project3 = () => {
         </p>
         <ul className="list-disc ml-6">
           <li>Available in 2 game modes and 2 difficulty modes</li>
-          <li>Ability to input user's own secret word, guess of character letters and full word guesses</li>
+          <li>Ability to input a users secret word, guess of character letters and full word guesses</li>
           <li>In multiplayer mode, player rounds alternate until players quit the game</li>
         </ul>
       </div>

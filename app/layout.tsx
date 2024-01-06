@@ -9,7 +9,7 @@ const outfit = Outfit({ subsets: ['latin'] });
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      <style>{outfit.style}</style>
+      {/* <style></style> */}
       <Navbar />
       <div className={outfit.className}>{children}</div>
       <Footer />
