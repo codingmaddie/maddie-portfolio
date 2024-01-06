@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-import Logo from '../public/logo.png';
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -9,7 +7,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between h-full w-full px-10 2xl:px-16">
         <Link href='/'>
           <div className="flex items-center">
-            <Image src={Logo} alt="Logo" width="50" height="75" />
+            <img src="/Logo.png" alt="Logo" width="50" height="75" />
             <div className="ml-8 font-bold">
               <h2 className="text-xl text-gray-800">Madeline Tang</h2>
             </div>
