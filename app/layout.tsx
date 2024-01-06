@@ -4,17 +4,33 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import './globals.css';
 
+
+import HomeBackground from '../components/homebackground';
+import Gallery from '../components/gallery';
+import Skills from "../components/skills";
+import Projects from "../components/projects";
 const outfit = Outfit({ subsets: ['latin'] });
 
-const RootLayout = ({ children }: { children: React.ReactNode }) => {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}){
   return (
-    <>
-      {/* <style></style> */}
-      <Navbar />
-      <div className={outfit.className}>{children}</div>
-      <Footer />
-    </>
+    <html>
+      <main>
+        <HomeBackground />
+        <Skills />
+        <Projects />
+        <Gallery />
+        {children}
+      </main>
+    </html>
   );
 };
 
-export default RootLayout;
+  //  {/* <style></style> */}
+  //     {/* <Navbar /> */}
+  //     {/* <div className={outfit.className}>{children}</div> */}
+  //     {/* <Footer /> */}
+
