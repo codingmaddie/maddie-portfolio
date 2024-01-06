@@ -10,9 +10,9 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       {/* <style></style> */}
-      <Navbar />
+      {/* <Navbar /> */}
       <div className={outfit.className}>{children}</div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
