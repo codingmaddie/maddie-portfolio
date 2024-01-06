@@ -1,4 +1,4 @@
-import RootLayout from './layout';
+// import RootLayout from './layout';
 import HomeBackground from '../components/homebackground';
 import Gallery from '../components/gallery';
 import './globals.css'
@@ -15,13 +15,10 @@ export const metadata: Metadata = {
 const Home = () => {
   return (
       <div>
-      <RootLayout>
-      
         <HomeBackground />
         <Skills />
         <Projects />
         <Gallery />
-        </RootLayout>
       </div>
   );
 }
